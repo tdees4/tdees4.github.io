@@ -186,11 +186,16 @@ section a:hover {
   flex-direction: column;
   background-color: rgb(255, 229, 229);
   padding: 15px;
-  border-radius: 1em;
+  box-shadow: 0 0 0.5em #444444;
 }
 
 .card h3 {
-  border-bottom: 1px solid #aaaaaa
+  border-bottom: 1px solid #aaaaaa;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style-type: circle;
 }
 
 /**************   Responsiveness   *****************/
