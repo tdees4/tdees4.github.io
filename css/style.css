@@ -106,11 +106,18 @@ hr {
   margin-bottom: 20px;
 }
 
+section {
+  margin-bottom: 30px;
+}
+
 section h3 {
   font-family: Roboto;
   color: #000000;
   text-align: center;
   font-size: x-large;
+  border-bottom: 1px solid #444444;
+  width: max-content;
+  margin: 0 auto;
 }
 
 section dl {
@@ -170,6 +177,8 @@ section a:hover {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 0.5em;
+  box-shadow: 0 0 0.5em #444444;
 }
 
 .card {
@@ -178,6 +187,10 @@ section a:hover {
   background-color: rgb(255, 229, 229);
   padding: 15px;
   border-radius: 1em;
+}
+
+.card h3 {
+  border-bottom: 1px solid #aaaaaa
 }
 
 /**************   Responsiveness   *****************/
