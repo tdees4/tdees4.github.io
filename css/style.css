@@ -116,9 +116,7 @@ section dl {
   width: 60%;
   margin: 0 auto;
 
-  background-color: rgb(255, 229, 229);
   padding: 15px;
-  border-radius: 1em;
 
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
@@ -130,9 +128,7 @@ section dl {
 }
 
 section ul {
-  background-color: rgb(255, 229, 229);
   padding: 15px;
-  border-radius: 1em;
 
   width: 50%;
   margin: 0 auto;
