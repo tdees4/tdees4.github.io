@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/****************   Nav Section **********************/
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(219, 30, 30);
+  padding: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  border-bottom: solid 2px rgb(192, 27, 27);
+}
+
+nav > p > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav > p > a:hover {
+  text-decoration: underline;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(219, 30, 30);
+  padding: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  border-top: solid 2px rgb(192, 27, 27);
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+footer > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer > a:hover {
+  text-decoration: underline;
+}
+
+/*********** Splash Page ************************/
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1fr;
+  gap: 15px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(82, 8, 8);
+  font-size: x-large;
+}
+
+header img {
+  border: solid 1px black;
+  border-radius: 1em;
+  flex: 1;
+}
+
+.address {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 229, 229);
+  border-radius: 1em;
+  padding: 15px;
+  flex: 1;
+}
+
+.tagline {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 229, 229);
+  border-radius: 1em;
+  padding: 15px;
+  flex: 2;
+}
+
+/************* Sections ********************/
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  font-family: Roboto;
+  color: #000000;
+  text-align: center;
+  font-size: x-large;
+}
+
+section dl {
+  width: 60%;
+  margin: 0 auto;
+
+  background-color: rgb(255, 229, 229);
+  padding: 15px;
+  border-radius: 1em;
+
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 30px;
+  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+}
+
+section ul {
+  background-color: rgb(255, 229, 229);
+  padding: 15px;
+  border-radius: 1em;
+
+  width: 50%;
+  margin: 0 auto;
+
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: auto;
+}
+
+section a {
+  color: rgb(184, 32, 32);
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  margin: 15px;
+}
+
+.card img {
+  max-width: 90%;
+  gap: 20px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 229, 229);
+  padding: 15px;
+  border-radius: 1em;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+  border-width: 1px;
+  border-radius: 0.5em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+textarea {
+   border-radius: 0.5em;
+   padding: 5px;
+}
+
+.contact-profile {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
