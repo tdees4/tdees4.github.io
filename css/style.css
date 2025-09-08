@@ -62,7 +62,6 @@ footer > a:hover {
   justify-content: center;
   align-items: center;
   height: 1fr;
-  gap: 15px;
   margin: 0 auto;
   width: 75%;
 }
@@ -79,14 +78,15 @@ header h1 {
 
 header img {
   border: solid 1px black;
-  border-radius: 1em;
   flex: 1;
+  height: 11em;
 }
 
 .address {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(255, 229, 229);
-  border-radius: 1em;
+  background-color: rgb(240, 215, 215);
+  margin: 0;
+  height: 100%;
   padding: 15px;
   flex: 1;
 }
@@ -94,7 +94,8 @@ header img {
 .tagline {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(255, 229, 229);
-  border-radius: 1em;
+  margin: 0;
+  height: 100%;
   padding: 15px;
   flex: 2;
 }
@@ -188,6 +189,10 @@ section a:hover {
     .three-col {
       display: grid;
       grid-template-columns: 1fr;
+    }
+
+    .profile {
+      flex-direction: column;
     }
 }
 
