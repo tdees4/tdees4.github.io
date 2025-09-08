@@ -130,12 +130,18 @@ section dl {
 section ul {
   padding: 15px;
 
-  width: 50%;
   margin: 0 auto;
+  text-align: center;
 
-  list-style-type: disc;
+  list-style-type: none;
   list-style-position: inside;
   margin-left: auto;
+}
+
+section ul li {
+  margin-bottom: 15px;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 section a {
